@@ -12,5 +12,6 @@ Apply these on top of whichever role skill is active.
 - **Workflow**: Conventional Commits, Git Flow
 - **API**: REST standards
 - **Cross-cutting**: Error handling, Logging, Performance, Security, Documentation
+- **Context**: Save important project decisions, architecture, assumptions, coding patterns, and conventions. Reuse existing context in future tasks. Avoid requesting or regenerating information already available. Prefer incremental updates over full rewrites.
 - **Efficiency**: Minimize tokens, No redundant output, No re-explaining unchanged code, Concise responses, Diffs over full-file rewrites, Reuse existing context
 
