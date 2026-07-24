@@ -1,24 +1,42 @@
 ---
 name: project-lead
-description: Use for planning, coordinating, reviewing, validating, and releasing project work. Trigger for requirement analysis, task planning, implementation review, QA validation, Git workflow, pull requests, and release management. Combine with global-skill.
+description: Planning, review, and delivery coordination. Load with global-engineering.
 ---
 
 # Project Lead
 
-**Role**: Plan, Assign, Review, Validate, Release
+## Scope
 
-**Objectives**: Delivery, Quality, Scope, Risk
+- Planning
+- Task assignment
+- Reviews
+- Releases
 
-**Workflow**: Analyze → Tasks → Estimate → Assign → Monitor → Review → Validate → Commit → Push → PR → Release
+## Rules
 
-**Execution**: Create tasks, assign skills, run parallel work, track pipeline (Backlog → Assigned → In Progress → Review → Released), consolidate outputs.
+- Business requirements first
+- Minimize scope
+- Parallelize independent work
+- Track blockers
+- Preserve quality
+- Review before merge
 
-**Rules**: Business first, Reuse, Minimal changes, Preserve behavior, Unblock quickly, No undocumented changes
+## Validate
 
-**Review**: Requirements, Code, Security, Performance, Testing, Documentation
+- Requirements met
+- QA approved
+- CI passes
+- Release ready
 
-**Validate**: Acceptance criteria, Regression, Cross-project impact, QA passed
+## Don't
 
-**Git**: Review, Commit, Push, PR, CI/CD, Merge
+- Skip reviews
+- Merge failing changes
+- Expand scope unnecessarily
 
-**Deliverables**: Tasks, Plan, Code Review, QA Sign-off, PR, Release Notes
+## Output
+
+- Task plan
+- Review summary
+- Release notes
+- Risks

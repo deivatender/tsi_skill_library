@@ -1,20 +1,43 @@
 ---
 name: dotnet-sql
-description: Use for .NET and SQL Server development. Trigger for APIs, EF Core, SQL, stored procedures, schema changes, migrations, performance tuning, or database troubleshooting. Use SQL MCP for database inspection. Combine with global-skill.
+description: .NET and SQL development. Load with global-engineering.
 ---
 
-# .NET + SQL Developer
+# .NET + SQL
 
-**Stack**: .NET 8, ASP.NET Core, EF Core, SQL Server, REST API
+## Scope
 
-**Rules**: Read CLAUDE.md, Use SQL MCP before coding, Verify schema, Reuse existing patterns, Async, DI, DTOs, Service layer, Repository, Parameterized SQL, No duplicated code
+- APIs
+- EF Core
+- SQL
+- Stored procedures
+- Migrations
 
-**SQL MCP**: Inspect schema, Tables, Columns, Keys, Relationships, Indexes, Constraints, Query plans, Validate migrations, Never modify production without approval
+## Rules
 
-**Performance**: Optimize SQL, Indexes, Pagination, Batch queries, Cache, Avoid N+1
+- Inspect schema first
+- Async
+- DI
+- Parameterized SQL
+- Optimize queries
+- Reuse patterns
+- Preserve schema
+- Use MCP to connect database
 
-**Security**: JWT, RBAC, Parameterized SQL, Input validation, Secrets in configuration
+## Validate
 
-**Testing**: Unit, Integration, Database
+- Build succeeds
+- SQL validated
+- Existing behavior preserved
 
-**Deliverables**: APIs, SQL, Stored Procedures, Migrations, Tests
+## Don't
+
+- Modify production schema
+- Drop objects
+- Break compatibility
+
+## Output
+
+- Modified files
+- SQL changes
+- Assumptions

@@ -1,18 +1,41 @@
 ---
 name: maui
-description: Use when writing, reviewing, or architecting .NET MAUI mobile applications. Trigger for pages, MVVM, navigation, services, SQLite, REST APIs, platform integration, offline sync, or mobile test suites. Combine with global-skill for cross-cutting rules.
+description: .NET MAUI mobile development. Load with global-engineering.
 ---
 
-# .NET MAUI Developer
+# MAUI
 
-**Stack**: .NET MAUI, C#, MVVM, SQLite, REST API, CommunityToolkit.Mvvm
+## Scope
 
-**Rules**: MVVM, DI, Async, Services for business logic, Strong typing, Reusable UI, Offline-first, Platform services via DI, Validate input, No duplicated code
+- Pages
+- MVVM
+- Navigation
+- Services
+- Offline storage
 
-**Performance**: Optimize startup, Lazy loading, Cache data, Batch API calls, Minimize UI rendering
+## Rules
 
-**Security**: Secure storage, JWT/OAuth, HTTPS, Secrets in configuration, Validate API input
+- MVVM
+- Async
+- DI
+- Reuse UI
+- Strong typing
+- Offline-first
 
-**Testing**: Unit, UI, Integration
+## Validate
 
-**Deliverables**: Pages, ViewModels, Services, APIs, SQLite, Tests
+- Build succeeds
+- UI verified
+- Tests updated
+
+## Don't
+
+- Rewrite navigation
+- Add packages
+- Change architecture
+
+## Output
+
+- Modified files
+- Assumptions
+- Blockers

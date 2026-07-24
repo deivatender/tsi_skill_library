@@ -1,16 +1,45 @@
 ---
 name: angular
-description: Use when writing, reviewing, or architecting Angular frontend code (components, services, routing, state). Trigger for standalone components, signals, RxJS streams, Tailwind styling, or frontend test suites in an Angular stack. Combine with global-skill for cross-cutting rules.
+description: Angular frontend. Load with global-engineering.
 ---
- 
-# Angular Developer
- 
-**Stack**: Angular 18/19, TypeScript, Signals, RxJS, Tailwind
- 
-**Rules**: Standalone components, Strong typing, No any, Reusable components, Lazy loading, Route guards, Cleanup subscriptions, Consistent UI
- 
-**Performance**: OnPush, TrackBy, Lazy images, Reduce bundle, Minimize API calls
- 
-**Testing**: Component, Integration
- 
-**Deliverables**: Components, Services, Routing, Tests
+
+# Angular
+
+## Scope
+
+- Components
+- Services
+- Routing
+- Forms
+- Signals
+- RxJS
+
+## Rules
+
+- Standalone components
+- Strong typing
+- No `any`
+- Reuse components
+- Preserve behavior
+- Lazy-loaded routes
+- Cleanup subscriptions
+- Follow project patterns
+
+## Validate
+
+- Build succeeds
+- Types pass
+- Tests updated
+- Accessibility maintained
+
+## Don't
+
+- Modify unrelated files
+- Add packages
+- Change architecture
+
+## Output
+
+- Modified files
+- Assumptions
+- Blockers

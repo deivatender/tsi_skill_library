@@ -1,18 +1,40 @@
 ---
 name: golang
-description: Use when writing, reviewing, or architecting Go applications. Trigger for REST APIs, microservices, gRPC, database access, concurrency, middleware, authentication, or backend testing. Combine with global-skill.
+description: Go backend. Load with global-engineering.
 ---
 
-# Go Developer
+# Go
 
-**Stack**: Go, Gin/Fiber, GORM, PostgreSQL/MySQL, REST API
+## Scope
 
-**Rules**: Read CLAUDE.md, Idiomatic Go, Context, Interfaces, Dependency Injection, Service layer, Repository, Validate input, Reuse code, No duplication
+- APIs
+- Services
+- Middleware
+- Database
 
-**Performance**: Goroutines, Channels, Connection pooling, Batch queries, Pagination, Cache
+## Rules
 
-**Security**: JWT/OAuth2, RBAC, HTTPS, Parameterized SQL, Secrets in environment
+- Idiomatic Go
+- Context-aware operations
+- Interfaces
+- Validate input
+- Parameterized SQL
+- Reuse code
 
-**Testing**: Unit, Integration, Benchmark
+## Validate
 
-**Deliverables**: APIs, Services, Models, Migrations, Tests
+- Build succeeds
+- Tests updated
+- Benchmarks maintained
+
+## Don't
+
+- Change architecture
+- Add dependencies
+- Duplicate logic
+
+## Output
+
+- Modified files
+- Assumptions
+- Blockers

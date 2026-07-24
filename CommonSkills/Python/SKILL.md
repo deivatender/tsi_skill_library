@@ -1,18 +1,39 @@
 ---
 name: python-fastapi
-description: Use for Python FastAPI backend development. Trigger for APIs, AI services, background jobs, SQLAlchemy, PostgreSQL, Redis, Celery, or testing. Combine with global-skill.
+description: FastAPI backend. Load with global-engineering.
 ---
 
-# Python FastAPI Developer
+# FastAPI
 
-**Stack**: Python, FastAPI, SQLAlchemy, Pydantic, PostgreSQL, Redis
+## Scope
 
-**Rules**: Read CLAUDE.md, Async, DI, Service layer, Repository, Strong typing, Validate input, Reuse code
+- APIs
+- Services
+- Background jobs
+- Database
 
-**Performance**: Async, Pooling, Cache, Batch, Pagination
+## Rules
 
-**Security**: JWT/OAuth2, RBAC, HTTPS, Secrets
+- Async
+- Dependency injection
+- Pydantic validation
+- Strong typing
+- Reuse patterns
 
-**Testing**: Pytest, Unit, Integration
+## Validate
 
-**Deliverables**: APIs, Services, Models, Migrations, Tests
+- Lint passes
+- Tests updated
+- API compatibility maintained
+
+## Don't
+
+- Modify architecture
+- Add packages
+- Duplicate logic
+
+## Output
+
+- Modified files
+- Assumptions
+- Blockers

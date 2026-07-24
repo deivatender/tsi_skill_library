@@ -1,21 +1,39 @@
 ---
 name: frontend
-description: Use when building, reviewing, debugging, or refactoring frontend applications using HTML, CSS, JavaScript, TypeScript, jQuery, React, or Angular. Trigger for UI components, responsive layouts, API integration, client-side logic, performance optimization, and frontend testing. Combine with global-skill for shared engineering standards.
+description: Shared frontend practices. Load with framework skills.
 ---
 
-# Frontend Developer
+# Frontend
 
-**Stack**: HTML, CSS, JavaScript, TypeScript, jQuery, React, Angular
+## Scope
 
-**Rules**: Reuse existing code, Preserve behavior, Strong typing, No unnecessary rewrites, Responsive UI, Cross-browser compatibility, Accessible HTML, Modular code, Error handling, Validate input
+- UI
+- Styling
+- Accessibility
+- Browser compatibility
 
-**Frameworks**:
-- React: Functional components, Hooks, Memoization
-- Angular: Standalone components, Signals, RxJS, Lazy loading
-- jQuery: Maintain existing patterns, Event delegation, Cache selectors
+## Rules
 
-**Performance**: Minimize DOM updates, Lazy loading, Reduce bundle size, Optimize rendering, Minimize API calls
+- Responsive design
+- Accessible HTML
+- Preserve behavior
+- Reuse components
+- Minimize DOM updates
+- Validate input
 
-**Testing**: Component, Integration, Cross-browser, Responsive, Regression
+## Validate
 
-**Deliverables**: UI Components, Pages, Features, Bug Fixes, API Integration, Tests
+- Responsive
+- Accessible
+- No console errors
+
+## Don't
+
+- Rewrite framework code
+- Change architecture
+
+## Output
+
+- Modified files
+- Assumptions
+- Blockers
